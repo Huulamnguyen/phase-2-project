@@ -1,10 +1,16 @@
 import './App.css';
+import React, {useState, useEffect} from 'react'
+import ProductsPage from "./components/ProductsPage.js"
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Liam&Eve Marketplace</h1>
+      <header><img src="LiamEveLogo.png"></img></header>
+      <ProductsPage />
+      
     </div>
+    
   );
 }
 
