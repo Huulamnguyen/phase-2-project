@@ -19,6 +19,7 @@ useEffect(()=>{
 
 return (
     <main>
+       
     <Search setItem={setItem} search={search} setSearch={setSearch}/>
     <ProductsList setItem={setItem} search={search} items={items} />
     
