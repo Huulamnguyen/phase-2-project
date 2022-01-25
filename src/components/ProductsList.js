@@ -1,16 +1,12 @@
-import React, {useState} from 'react'
-import CardList from "./CardList"
+import React from "react";
+import ProductItem from "./ProductItem";
 
 
-function ProductsList({items, search, setItem}){
-    console.log(items)
+function ProductsList({products}){
+
 return (
     <ul className="cards">
-     {
-      items.filter(item=> item.title.toLowerCase().includes(search.toLowerCase())).map((item)=>{
-        return <CardList item={item} key={item.id} items={items} setItem={setItem}/>
-      })
-    }
+      {products.map(product => < ProductItem key={product.id} product={product}/> )}
     </ul>
   );
 }
