@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ProductItem({product}){
+function ProductItem({product, onAdd}){
     const {title, price, rating, image } = product
     return (
         <li className="card">
@@ -8,7 +8,8 @@ function ProductItem({product}){
             <p>Price: ${price}</p>
             <p>Quantity: {rating.count}</p>
             <p>Rating: {rating.rate}/ 5</p>
-            <img src={image} alt={"item name"} />
+            <img className="small" src={image} alt={title} />
+            <button onClick={()=> onAdd(product)}>Add To Cart</button>
         </li>
     )
 }

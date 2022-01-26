@@ -10,7 +10,7 @@ function NavBar(){
             <NavLink to="/products/categories/jewelery">Jewelery</NavLink>
             <NavLink to="/products/categories/men-clothing">Men's clothing</NavLink>
             <NavLink to="/products/categories/women-clothing">Women's clothing</NavLink>
-            <NavLink to="/products/cart">Cart</NavLink>
+            {/* <NavLink to="/products/cart">Cart</NavLink> */}
         </div>
     )
 }
