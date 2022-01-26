@@ -1,9 +1,8 @@
 import React, {useState} from 'react'
 
-function Cart({items, item}){
+function Cart(){
 return (
-    <button>Add to Cart</button>
-)
-}
+    <h1>Your Cart</h1>
+)}
 
 export default Cart;

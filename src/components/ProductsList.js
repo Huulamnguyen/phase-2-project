@@ -6,7 +6,7 @@ function ProductsList({products}){
 
 return (
     <ul className="cards">
-      {products.map(product => < ProductItem key={product.id} product={product}/> )}
+      {products.map(product => <ProductItem key={product.id} product={product}/> )}
     </ul>
   );
 }
