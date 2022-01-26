@@ -1,9 +1,12 @@
 import React, {useState} from 'react';
 import ProductItem from "./ProductItem";
 import Search from "./Search";
+import CartHeader from "./CartHeader"
+import Cart from "./Cart";
+
 import {useParams} from "react-router-dom";
 
-function Category({products}){
+function Category({products, cartItems, onAdd, onRemove}){
 
     const [search, setSearch] = useState("")
 
@@ -27,9 +30,13 @@ function Category({products}){
     return(
         <div>
             <Search search={search} setSearch={setSearch} />
-            <ul className="cards">
-                {displayProducts.map(product => <ProductItem key={product.id} product={product}/>)}
-            </ul>
+            <CartHeader countCartItems={cartItems.length} />
+            <div className="row">
+                <ul className="cards block col-2">
+                    {displayProducts.map(product => <ProductItem key={product.id} product={product} onAdd={onAdd}/>)}
+                </ul>
+                <Cart cartItems={cartItems} onAdd={onAdd} onRemove={onRemove}/>
+            </div>
         </div> 
         
     )
