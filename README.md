@@ -4,8 +4,10 @@
 ![AppPreview](https://user-images.githubusercontent.com/63218884/151458004-84f3428b-0775-4cd6-b613-3d0f8f4be3db.png)
 
 ## App Demo:
-https://media.giphy.com/media/pn9bWFGfaXwQ04PPhT/giphy.gif
 ![giphy](https://user-images.githubusercontent.com/63218884/151459042-27068fae-f5bb-45ce-be8f-07f3a9db1136.gif)
+
+![adding-to-cart](https://user-images.githubusercontent.com/63218884/151459172-57380ef7-2eb7-44f4-a335-1027e680a2a7.mp4)
+
 
 ## Description: 
 - This is an e-commerce Application created by React
