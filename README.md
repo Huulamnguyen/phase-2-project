@@ -1,16 +1,21 @@
 # App Name: Liam&Eve Marketplace
 
+## Description: 
+- This is an e-commerce Application created by React
+
 ## App Preview:
 ![AppPreview](https://user-images.githubusercontent.com/63218884/151458004-84f3428b-0775-4cd6-b613-3d0f8f4be3db.png)
 
 ## App Demo:
+- This demo: allows user to navigate by a Navbar and searching for a product by name.
+- Products have been organized by each category
 ![navbar-searching](https://user-images.githubusercontent.com/63218884/151459042-27068fae-f5bb-45ce-be8f-07f3a9db1136.gif)
 
+-
 ![add-cart](https://user-images.githubusercontent.com/63218884/151459349-f685ee0c-bd74-4caa-b866-7717a1a8197e.gif)
 
 
-## Description: 
-- This is an e-commerce Application created by React
+
 
 ## Basic Features:
 - Searching a particular product
