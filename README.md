@@ -5,6 +5,7 @@
 
 ## App Demo:
 https://media.giphy.com/media/pn9bWFGfaXwQ04PPhT/giphy.gif
+![giphy](https://user-images.githubusercontent.com/63218884/151459042-27068fae-f5bb-45ce-be8f-07f3a9db1136.gif)
 
 ## Description: 
 - This is an e-commerce Application created by React
