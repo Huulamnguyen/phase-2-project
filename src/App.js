@@ -7,7 +7,7 @@ import Categories from "./components/Categories";
 
 import {Switch, Route} from "react-router-dom";
 
-const SERVER_URL = 'http://localhost:3000';
+const SERVER_URL = 'http://localhost:3001';
 
 function App() {
 

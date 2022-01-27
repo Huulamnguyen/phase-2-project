@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #cfbaf0;
 }
 
 .App-logo {
@@ -41,11 +42,10 @@
   padding: 1rem;
   display: flex;
   flex-direction: column;
+  
 }
-
-label {
-  font-weight: bold;
-  display: block;
+#search {
+  border-radius: 0.5rem;
 }
 
 input {
@@ -56,6 +56,8 @@ input {
   border-bottom: 2px solid gray;
   transition: all 0.2s;
   width: 100%;
+  background-color: white;
+  color: black;
 }
 
 input:focus {
@@ -69,7 +71,7 @@ input:focus {
 
 .card {
   margin: 1rem;
-  background-color: #12d0e9;
+  background-color: #90dbf4;
   padding: 0.5rem;
   margin: 0.5rem;
   border-radius: 0.5rem;
@@ -123,6 +125,13 @@ h2 {
 h3 {
   font-size: 1rem;
 }
+h4 {
+  
+  color: black;
+  padding: 0.1rem;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+}
 a {
   text-decoration: none;
 }
@@ -171,9 +180,44 @@ button.badge {
   width: 1.5rem;
 }
 .block {
-  background-color: #e0e0e0;
+  background-color: #8eecf5;
   padding: 0.5rem;
   margin: 0.5rem;
   border-radius: 0.5rem;
 
+}
+
+
+ .categories a{
+  
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  
+  background-color: #98f5e1;
+}
+
+
+ a {
+  padding: 0.1rem;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  background-color: pink
+
+}
+.catologlist {
+  
+  margin-top: 2rem;
+}
+html {
+  background-color: #cfbaf0;
+}
+
+label {
+  color: white;
+  font-weight: bold;
+  display: block;
+  padding: 0.1rem;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
 }
