@@ -68,6 +68,5 @@ function Cart({cartItems, onAdd, onRemove}){
         </aside>
     );
   }
-  
 
 export default Cart;
