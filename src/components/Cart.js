@@ -67,6 +67,6 @@ function Cart({cartItems, onAdd, onRemove}){
             </div>
         </aside>
     );
-  }
+}
 
 export default Cart;
