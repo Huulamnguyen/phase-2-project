@@ -4,7 +4,7 @@
 - This is an e-commerce Application created by React
 
 ## App Preview:
-![AppPreview](https://user-images.githubusercontent.com/63218884/151458004-84f3428b-0775-4cd6-b613-3d0f8f4be3db.png)
+![AppPreview](https://user-images.githubusercontent.com/63218884/155911217-214eab4c-9ba4-4426-85ba-aa451cefcf69.png)
 
 ## App Demo:
 - This demo: allows user to navigate by a Navbar and searching for a product by name.
