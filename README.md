@@ -1,4 +1,4 @@
-# App Name: Liam&Eve Marketplace
+# App Name: E-Commerce
 
 ## Description: 
 - This is an e-commerce Application created by React
