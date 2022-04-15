@@ -1,15 +1,11 @@
 # App Name: E-Commerce
 
 ## Description: 
-- This is an e-commerce Application created by React
+- This is an e-commerce Application created by React and Third-Party API called Fake Product
+- This project demonstrates how I implement and manipulate external source/data (API) by using React
 
 ## App Preview:
 ![AppPreview](https://user-images.githubusercontent.com/63218884/155911217-214eab4c-9ba4-4426-85ba-aa451cefcf69.png)
-
-## App Demo:
-- This demo: allows user to navigate by a Navbar and searching for a product by name.
-- Products have been organized by each category
-- View full demo here [Building E-Commerce App by React and React-Bootstrap](https://www.youtube.com/watch?v=f2tN3oeMELI)
 
 ## Basic Features:
 - Searching a particular product
